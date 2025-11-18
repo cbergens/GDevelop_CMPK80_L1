@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Game_32Scene",
-  "name": "Game Scene",
+  "mangledName": "Tutorial",
+  "name": "Tutorial",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,12 +18,23 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5653158055126374,
+    "zoomFactor": 0.6040838749988988,
     "windowMask": false,
     "selectedLayer": ""
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Targets_Hit",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Tutorial_Stage",
+      "type": "string",
+      "value": "shoot"
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -46,32 +57,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 128,
+      "height": 194,
       "keepRatio": true,
       "layer": "",
       "name": "Ground",
       "persistentUuid": "8a332a02-5fd7-494b-b9e5-c2ebbd789e65",
-      "width": 1344,
-      "x": -32,
-      "y": 640,
+      "width": 1444,
+      "x": -29,
+      "y": 554,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -45,
-      "customSize": true,
-      "depth": 1,
-      "height": 95,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "f02a8a7d-d3f2-40ba-88f1-4841bca6f50c",
-      "width": 190,
-      "x": 1124,
-      "y": 564,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -85,8 +79,8 @@
       "name": "Ball",
       "persistentUuid": "a94cc934-d2f4-42c0-897c-6b9c79e731d6",
       "width": 0,
-      "x": 200,
-      "y": 417,
+      "x": 263,
+      "y": 260,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -133,11 +127,11 @@
       "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "Block_Heavy",
+      "name": "Target",
       "persistentUuid": "427190df-8eb5-4f3c-b547-d1a405fc76bb",
       "width": 64,
-      "x": 570,
-      "y": 186,
+      "x": 467,
+      "y": 229,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -147,31 +141,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 416,
+      "height": 1675,
       "keepRatio": true,
       "layer": "",
       "name": "Ground",
       "persistentUuid": "7660cac4-890c-4629-b166-16f31193d3e9",
       "width": 64,
       "x": -32,
-      "y": 224,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 544,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "11cc696f-2d75-45c8-a2ed-c120eb52e8bb",
-      "width": 64,
-      "x": 1248,
-      "y": 96,
+      "y": -1035,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -181,14 +158,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 64,
-      "height": 19,
+      "height": 29,
       "keepRatio": true,
       "layer": "",
       "name": "PowerSlider",
       "persistentUuid": "d2c63fec-ba0c-466b-b977-66fdb2a73989",
-      "width": 293,
-      "x": 56,
-      "y": 687,
+      "width": 307,
+      "x": 45,
+      "y": 651,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -198,14 +175,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 64,
-      "height": 19,
+      "height": 27,
       "keepRatio": true,
       "layer": "",
       "name": "AngleSlider",
       "persistentUuid": "260a1912-1a33-4380-91de-1634b457b2b5",
-      "width": 289,
-      "x": 54,
-      "y": 648,
+      "width": 299,
+      "x": 50,
+      "y": 593,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -218,11 +195,11 @@
       "height": 111,
       "keepRatio": true,
       "layer": "",
-      "name": "Left_Arrow",
+      "name": "Arrow",
       "persistentUuid": "f9ed5989-8378-4bfb-a1b1-58548b18e822",
       "width": 312,
-      "x": 47,
-      "y": 380,
+      "x": 267,
+      "y": 259,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,15 +207,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 119,
       "keepRatio": true,
       "layer": "",
       "name": "BlueButton",
       "persistentUuid": "a75d268d-ab49-47e4-98a0-185049f7f563",
-      "width": 0,
-      "x": 417,
-      "y": 634,
+      "width": 269,
+      "x": 437,
+      "y": 577,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -251,28 +229,11 @@
       "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "59d1552f-f3dd-4bec-aad0-bc4e8b4c104d",
-      "width": 64,
-      "x": 965,
-      "y": 162,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
+      "name": "Target",
       "persistentUuid": "a44280b1-1d25-445f-bbf0-512e74b9c015",
       "width": 64,
-      "x": 743,
-      "y": 205,
+      "x": 1044,
+      "y": 232,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -285,181 +246,12 @@
       "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "5e13a193-72df-43d9-a62d-b0e14b816c8f",
-      "width": 64,
-      "x": 641,
-      "y": 254,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "70ff3b74-d5c7-46b0-95f4-a045a08e19ba",
-      "width": 64,
-      "x": 666,
-      "y": 161,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "1531191e-dbde-4090-973c-e114b7b4dbc8",
-      "width": 64,
-      "x": 751,
-      "y": 128,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
+      "name": "Target",
       "persistentUuid": "b2f3a7ab-24ce-4e00-b57e-ac4c2ff23925",
       "width": 64,
-      "x": 706,
-      "y": 266,
+      "x": 373,
+      "y": 364,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "e45e41f2-3285-4fe6-8fa4-41f2da4d0338",
-      "width": 64,
-      "x": 532,
-      "y": 250,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "358e38fb-9cbf-4be7-8b0e-b22492b8c109",
-      "width": 64,
-      "x": 830,
-      "y": 215,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "3e34b733-6b8f-49a5-b193-b57d07176a16",
-      "width": 64,
-      "x": 931,
-      "y": 278,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "34e49b43-6bb3-4b0b-a5e1-0eb6e15547ba",
-      "width": 64,
-      "x": 1028,
-      "y": 330,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "507d2e24-8397-41f1-82b8-a72b20966db9",
-      "width": 64,
-      "x": 457,
-      "y": 257,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Block_Heavy",
-      "persistentUuid": "df2dad37-bc2c-45cf-9b1d-69fe45da86ba",
-      "width": 64,
-      "x": 998,
-      "y": 247,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "YellowStarCounter",
-      "persistentUuid": "5cbc1d2f-94c2-4e3c-bd92-12f060b1d632",
-      "width": 0,
-      "x": 611,
-      "y": 6,
-      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -474,9 +266,109 @@
       "name": "AttemptsText",
       "persistentUuid": "7877f6e2-dfef-4674-a520-1137bb72f887",
       "width": 323,
-      "x": 121,
-      "y": 24,
+      "x": 461,
+      "y": 14,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 83,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Back_To_Menu_Button",
+      "persistentUuid": "4cf2cca5-1c85-4719-b3fb-c765b2d7cbbd",
+      "width": 183,
+      "x": 11,
+      "y": 5,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Help_Text_Box",
+      "persistentUuid": "aaed4b98-ede2-4ab0-abc4-1ea54f52ff2e",
+      "width": 0,
+      "x": 432,
+      "y": 466,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Help_Text",
+      "persistentUuid": "4ddf1a86-4b46-4f6f-a187-06c98f4156fb",
+      "width": 292,
+      "x": 436,
+      "y": 470,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Next_Button",
+      "persistentUuid": "9255ec9b-c6f8-439a-882d-8855e846d432",
+      "width": 90,
+      "x": 696,
+      "y": 536,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Clown",
+      "persistentUuid": "623932f5-ec2c-40c1-874f-656e520abbc3",
+      "width": 0,
+      "x": 1130,
+      "y": 107,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2005,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "2c408f2c-f2b2-4564-822b-14ad113565cd",
+      "width": 64,
+      "x": 1394,
+      "y": -1256,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -577,8 +469,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -616,72 +508,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "Block_Light",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": true,
-          "shape": "Box",
-          "shapeDimensionA": 30,
-          "shapeDimensionB": 94,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\StartingBlock.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Block_Heavy",
+      "name": "Target",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -713,16 +540,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\StartingBlock_Heavy",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\StartingBlock_Heavy.png",
+                  "image": "assets\\StartingBlock_Heavy",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -756,7 +584,10 @@
         "BarLeftPadding": 6,
         "BarRightPadding": 6,
         "BarBottomPadding": 6,
-        "LabelMargin": 6
+        "LabelMargin": 6,
+        "MinValue": 0,
+        "MaxValue": 360,
+        "InitialValue": 180
       }
     },
     {
@@ -772,13 +603,15 @@
         "BarLeftPadding": 3,
         "BarRightPadding": 3,
         "BarBottomPadding": 4,
-        "LabelMargin": 4
+        "LabelMargin": 4,
+        "InitialValue": 65,
+        "MinValue": 50
       }
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "13a9cef806e970f1b9426f37cf41e27eb70fffedac02cd4736c023201afb7011",
-      "name": "Left_Arrow",
+      "name": "Arrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -800,14 +633,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 7,
+                    "y": 6.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 7,
+                    "y": 6.5
                   },
                   "customCollisionMask": [
                     [
@@ -855,18 +688,6 @@
       }
     },
     {
-      "assetStoreId": "611b22a848c461d48bdbe75dc564ac2aabe40e6a29c017139faf199fe447338d",
-      "name": "YellowStarCounter",
-      "type": "ScoreCounter::ScoreCounter",
-      "variant": "Yellow star counter",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "Score": 0
-      }
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -883,7 +704,7 @@
       ],
       "effects": [],
       "behaviors": [],
-      "string": "Attempts: 3",
+      "string": "Attempts Left: ∞",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -906,7 +727,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Attempts: 3",
+        "text": "Attempts Left: ∞",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -914,6 +735,282 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+      "name": "Back_To_Menu_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Grey Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "Menu"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Help_Text_Box",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 2,
+          "RadiusY": 6,
+          "LoopDuration": 5,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Help_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 2,
+          "RadiusY": 6,
+          "LoopDuration": 5,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
+      "string": "Press \"Shoot\" to shoot the ball",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 32,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 5,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Press \"Shoot\" to shoot the ball",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 32,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "871710b14109d14f8528af7a1ec7f3ab039074be8ede00c2b55f8fe8857629b3",
+      "name": "Next_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Small Yellow Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 2,
+          "RadiusY": 6,
+          "LoopDuration": 5,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LabelText": "Next",
+        "PressedLabelOffsetY": 2
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Clown",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Circle",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.5,
+          "gravityScale": 1.5,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale",
+          "Scale": "Scale"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 21
+                      },
+                      {
+                        "x": 130,
+                        "y": 21
+                      },
+                      {
+                        "x": 130,
+                        "y": 300
+                      },
+                      {
+                        "x": 13,
+                        "y": 300
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -923,10 +1020,10 @@
         "objectName": "Ball"
       },
       {
-        "objectName": "Block_Light"
+        "objectName": "Target"
       },
       {
-        "objectName": "Block_Heavy"
+        "objectName": "Back_To_Menu_Button"
       },
       {
         "objectName": "Ground"
@@ -941,16 +1038,25 @@
         "objectName": "PowerSlider"
       },
       {
-        "objectName": "Left_Arrow"
+        "objectName": "Arrow"
       },
       {
         "objectName": "BlueButton"
       },
       {
-        "objectName": "YellowStarCounter"
+        "objectName": "AttemptsText"
       },
       {
-        "objectName": "AttemptsText"
+        "objectName": "Help_Text"
+      },
+      {
+        "objectName": "Help_Text_Box"
+      },
+      {
+        "objectName": "Next_Button"
+      },
+      {
+        "objectName": "Clown"
       }
     ]
   },
@@ -983,20 +1089,53 @@
             "value": "ActivateBehavior"
           },
           "parameters": [
-            "Block_Heavy",
+            "Clown",
             "Physics2",
             "no"
           ]
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "ActivateBehavior"
           },
           "parameters": [
-            "AttemptsText",
-            "Text",
+            "Target",
+            "Physics2",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Ball",
             "=",
-            "\"Attempts: \" + AttemptsText.Attempts"
+            "267",
+            "=",
+            "259"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Arrow",
+            "=",
+            "267",
+            "=",
+            "259"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "Tutorial_Stage",
+            "=",
+            "\"shoot\""
           ]
         }
       ]
@@ -1006,13 +1145,10 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "Ball",
-            "Block_Heavy",
-            "Block_Heavy",
-            "",
+            "Back_To_Menu_Button",
             ""
           ]
         }
@@ -1020,21 +1156,11 @@
       "actions": [
         {
           "type": {
-            "value": "Delete"
+            "value": "Scene"
           },
           "parameters": [
-            "Block_Heavy",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ScoreCounter::ScoreCounter::SetScore"
-          },
-          "parameters": [
-            "YellowStarCounter",
-            "=",
-            "YellowStarCounter.Score() + 1",
+            "",
+            "\"Menu\"",
             ""
           ]
         }
@@ -1049,9 +1175,9 @@
             "value": "SetAngle"
           },
           "parameters": [
-            "Left_Arrow",
+            "Arrow",
             "=",
-            "3.6 * AngleSlider.Value()"
+            "AngleSlider.Value()"
           ]
         },
         {
@@ -1059,10 +1185,10 @@
             "value": "ScalableCapability::ScalableBehavior::SetX"
           },
           "parameters": [
-            "Left_Arrow",
+            "Arrow",
             "Scale",
             "=",
-            "10 + 0.15 * PowerSlider.Value()"
+            "3 + 0.22 * PowerSlider.Value()"
           ]
         }
       ]
@@ -1108,32 +1234,56 @@
           "parameters": [
             "Ball",
             "Physics2",
-            "1 + 0.03 * PowerSlider.Value() * sin(-2.2 + AngleSlider.Value() / 100 * 2 * Pi())",
-            "-1 - 0.03 * PowerSlider.Value() *cos(-2.2 + AngleSlider.Value() / 100 * 2 * Pi())",
+            "0.05 * PowerSlider.Value() * -cos(ToRad(AngleSlider.Value()))",
+            "0.05 * PowerSlider.Value() * -sin(ToRad(AngleSlider.Value()))",
             "Ball.Physics2::MassCenterX()",
             "Ball.Physics2::MassCenterY()"
           ]
         },
         {
           "type": {
-            "value": "SetNumberObjectVariable"
+            "value": "Cache"
           },
           "parameters": [
-            "AttemptsText",
-            "Attempts",
-            "=",
-            "AttemptsText.Attempts - 1"
+            "Arrow"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Ball",
+            "Target",
+            "Block_Heavy",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Target",
+            ""
           ]
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "AttemptsText",
-            "Text",
+            "Targets_Hit",
             "=",
-            "\"Attempts: \" + AttemptsText.Attempts"
+            "Targets_Hit + 1"
           ]
         }
       ]
@@ -1162,9 +1312,9 @@
           "parameters": [
             "Ball",
             "=",
-            "200",
+            "267",
             "=",
-            "417"
+            "259"
           ]
         },
         {
@@ -1176,6 +1326,15 @@
             "Physics2",
             "no"
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Arrow",
+            ""
+          ]
         }
       ],
       "events": [
@@ -1184,24 +1343,84 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "AttemptsText",
-                "Attempts",
-                "=",
-                "0"
+                "Targets_Hit",
+                ">=",
+                "3"
               ]
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Clown",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Clown",
+                "ShakeObject_PositionAngleScale",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+              },
+              "parameters": [
+                "Clown",
+                "ShakeObject_PositionAngleScale",
+                "2",
+                "5",
+                "5",
+                "5",
+                "5",
+                "0.08",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.9"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Lose Scene\"",
+                "\"Win Tutorial\"",
                 ""
               ]
             }
@@ -1214,25 +1433,233 @@
       "conditions": [
         {
           "type": {
-            "value": "ScoreCounter::ScoreCounter::Score"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "YellowStarCounter",
-            ">=",
-            "12",
+            "Next_Button",
             ""
           ]
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Win Scene\"",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "Tutorial_Stage",
+                "=",
+                "\"power\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Tutorial_Stage",
+                "=",
+                "\"goal\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Help_Text_Box",
+                "=",
+                "454",
+                "=",
+                "71"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Help_Text",
+                "=",
+                "454",
+                "=",
+                "71"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Help_Text",
+                "Text",
+                "=",
+                "\"Hit all targets without running out of attempts!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Next_Button",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "Tutorial_Stage",
+                "=",
+                "\"angle\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Tutorial_Stage",
+                "=",
+                "\"power\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Help_Text_Box",
+                "=",
+                "50",
+                "=",
+                "465"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Help_Text",
+                "=",
+                "50",
+                "=",
+                "465"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Next_Button",
+                "=",
+                "Help_Text.X() + 260",
+                "=",
+                "Help_Text_Box.Y() + 70"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Help_Text",
+                "Text",
+                "=",
+                "\"Adjust the POWER with the BLUE slider\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "Tutorial_Stage",
+                "=",
+                "\"shoot\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Tutorial_Stage",
+                "=",
+                "\"angle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Help_Text_Box",
+                "=",
+                "50",
+                "=",
+                "465"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Help_Text",
+                "=",
+                "50",
+                "=",
+                "465"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Next_Button",
+                "=",
+                "Help_Text.X() + 260",
+                "=",
+                "Help_Text_Box.Y() + 70"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Help_Text",
+                "Text",
+                "=",
+                "\"Adjust the ANGLE with the WHITE slider\""
+              ]
+            }
           ]
         }
       ]
@@ -1278,6 +1705,10 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
+    },
+    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
     },
@@ -1301,6 +1732,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngleScale",
+      "type": "ShakeObject::ShakeObject_PositionAngleScale"
     },
     {
       "name": "Text",

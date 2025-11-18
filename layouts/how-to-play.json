@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Win_32Scene",
-  "name": "Win Scene",
+  "mangledName": "How_32To_32Play",
+  "name": "How To Play",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -27,15 +27,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 88,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "7cd10812-bd56-4314-882b-1d088044f746",
-      "width": 0,
-      "x": 464,
-      "y": 256,
+      "name": "Back_Button",
+      "persistentUuid": "dd23b2dc-d02a-4138-ae12-d76069a328da",
+      "width": 223,
+      "x": 25,
+      "y": 18,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -47,12 +48,29 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Levels_Button",
-      "persistentUuid": "41de5964-a07e-4efc-b1d9-c5eda0215f1f",
+      "name": "Title_Text",
+      "persistentUuid": "1a0e26da-a277-408a-8614-327af4b75bf6",
       "width": 0,
-      "x": 543,
-      "y": 443,
+      "x": 418,
+      "y": 22,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 491,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Info_Text",
+      "persistentUuid": "c3d8b1fc-de20-42e8-9f74-84b666cc3e15",
+      "width": 793,
+      "x": 305,
+      "y": 208,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -60,20 +78,38 @@
   ],
   "objects": [
     {
+      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+      "name": "Back_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Grey Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "Back"
+      }
+    },
+    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "Title_Text",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You Win!",
-      "font": "",
+      "string": "How To Play",
+      "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 90,
       "color": {
         "b": 0,
         "g": 0,
@@ -93,31 +129,56 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You Win!",
-        "font": "",
+        "text": "How To Play",
+        "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 90,
         "lineHeight": 0,
         "color": "0;0;0"
       }
     },
     {
-      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-      "name": "Levels_Button",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Green Button",
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Info_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
+      "string": "Throw your ball by adjusting the angle and power sliders and pressing SHOOT!\n\nHit all the targets before running out of attempts to beat the level!\n\nUnlock levels by completing previous ones.\n\nGood luck!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
       "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "Levels"
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Throw your ball by adjusting the angle and power sliders and pressing SHOOT!\n\nHit all the targets before running out of attempts to beat the level!\n\nUnlock levels by completing previous ones.\n\nGood luck!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
       }
     }
   ],
@@ -125,10 +186,13 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewText"
+        "objectName": "Back_Button"
       },
       {
-        "objectName": "Levels_Button"
+        "objectName": "Title_Text"
+      },
+      {
+        "objectName": "Info_Text"
       }
     ]
   },
@@ -141,7 +205,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "Levels_Button",
+            "Back_Button",
             ""
           ]
         }
@@ -153,7 +217,7 @@
           },
           "parameters": [
             "",
-            "\"Level Selection\"",
+            "\"Menu\"",
             ""
           ]
         }

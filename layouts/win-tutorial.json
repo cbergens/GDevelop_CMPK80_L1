@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Win_32Scene",
-  "name": "Win Scene",
+  "mangledName": "Win_32Tutorial",
+  "name": "Win Tutorial",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -31,11 +31,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "7cd10812-bd56-4314-882b-1d088044f746",
+      "name": "Win_Text",
+      "persistentUuid": "a7fade64-2b39-4598-881f-23c92d6752b6",
       "width": 0,
-      "x": 464,
-      "y": 256,
+      "x": 352,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -47,12 +47,28 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Levels_Button",
-      "persistentUuid": "41de5964-a07e-4efc-b1d9-c5eda0215f1f",
+      "name": "text",
+      "persistentUuid": "e3791ff2-077f-4b62-8a08-5f579f9ae340",
       "width": 0,
-      "x": 543,
-      "y": 443,
+      "x": 328,
+      "y": 254,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Levels",
+      "persistentUuid": "b29e1c25-4347-4f6b-9429-e23b6ecd7ffd",
+      "width": 0,
+      "x": 522,
+      "y": 437,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -63,17 +79,17 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "Win_Text",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You Win!",
-      "font": "",
+      "string": "YOU WIN!",
+      "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 150,
       "color": {
         "b": 0,
         "g": 0,
@@ -93,18 +109,61 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "You Win!",
+        "text": "YOU WIN!",
+        "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 150,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You got the hang of this!\n\n",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You got the hang of this!\n\n",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 60,
         "lineHeight": 0,
         "color": "0;0;0"
       }
     },
     {
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-      "name": "Levels_Button",
+      "name": "Levels",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "Green Button",
       "variables": [],
@@ -125,10 +184,13 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewText"
+        "objectName": "Win_Text"
       },
       {
-        "objectName": "Levels_Button"
+        "objectName": "text"
+      },
+      {
+        "objectName": "Levels"
       }
     ]
   },
@@ -141,7 +203,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "Levels_Button",
+            "Levels",
             ""
           ]
         }
