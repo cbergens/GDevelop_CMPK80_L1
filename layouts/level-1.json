@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.870023285985744,
+    "zoomFactor": 0.7130377630690525,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -52,15 +52,65 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 194,
+      "height": 720,
+      "layer": "",
+      "locked": true,
+      "name": "Background",
+      "persistentUuid": "b4e23d04-fe06-46f8-870d-90a04bf8a25b",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 740,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "d1415897-d680-4ce3-bc0f-2c85832cd417",
+      "width": 1300,
+      "x": -17,
+      "y": -2,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 70,
       "keepRatio": true,
       "layer": "",
       "name": "Ground",
-      "persistentUuid": "8a332a02-5fd7-494b-b9e5-c2ebbd789e65",
-      "width": 1394,
-      "x": -29,
-      "y": 554,
-      "zOrder": 2,
+      "persistentUuid": "bdd4b192-9ee5-4c87-a7f9-4f34d8d3fdcf",
+      "width": 1281,
+      "x": 0,
+      "y": 722,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "f776e07d-4f75-47a6-825b-4006f0e70a6f",
+      "width": 0,
+      "x": -3,
+      "y": 8,
+      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -72,45 +122,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Ball",
-      "persistentUuid": "a94cc934-d2f4-42c0-897c-6b9c79e731d6",
+      "persistentUuid": "5f1027c6-6575-4e3f-a94a-8bb66435e7a0",
       "width": 0,
-      "x": 184,
-      "y": 258,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 45,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "de240504-c48a-46dd-aea4-ca5ca1b571eb",
-      "width": 128,
-      "x": 156,
-      "y": 639,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 339,
-      "customSize": true,
-      "depth": 1,
-      "height": 73,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "b9477429-f229-4177-bcae-a99285a10f87",
-      "width": 145,
-      "x": 62,
-      "y": 629,
-      "zOrder": 0,
+      "x": 178,
+      "y": 268,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -123,28 +139,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "427190df-8eb5-4f3c-b547-d1a405fc76bb",
+      "persistentUuid": "654fa286-1a48-46c9-9936-009d2bb6ff00",
       "width": 64,
-      "x": 406,
-      "y": 182,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1675,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "7660cac4-890c-4629-b166-16f31193d3e9",
-      "width": 64,
-      "x": -32,
-      "y": -1035,
-      "zOrder": 10,
+      "x": 400,
+      "y": 192,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -157,11 +156,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "PowerSlider",
-      "persistentUuid": "d2c63fec-ba0c-466b-b977-66fdb2a73989",
+      "persistentUuid": "e9bd3b31-fd3a-46cb-bfbf-8ecd8c068489",
       "width": 307,
-      "x": 45,
-      "y": 651,
-      "zOrder": 12,
+      "x": 39,
+      "y": 661,
+      "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -174,11 +173,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "AngleSlider",
-      "persistentUuid": "260a1912-1a33-4380-91de-1634b457b2b5",
+      "persistentUuid": "d66d2fd1-dea9-4ca0-8026-540dcd2253f9",
       "width": 299,
-      "x": 50,
-      "y": 593,
-      "zOrder": 13,
+      "x": 44,
+      "y": 603,
+      "zOrder": 55,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -191,11 +190,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Arrow",
-      "persistentUuid": "f9ed5989-8378-4bfb-a1b1-58548b18e822",
+      "persistentUuid": "12aed958-e9d9-4cd3-a4b0-1eed9883dea5",
       "width": 312,
-      "x": 187,
-      "y": 259,
-      "zOrder": 14,
+      "x": 181,
+      "y": 269,
+      "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -208,11 +207,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "BlueButton",
-      "persistentUuid": "a75d268d-ab49-47e4-98a0-185049f7f563",
+      "persistentUuid": "819e98cc-c6f7-4604-a1a2-41dcb86f5098",
       "width": 269,
-      "x": 437,
-      "y": 577,
-      "zOrder": 15,
+      "x": 431,
+      "y": 587,
+      "zOrder": 57,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -225,11 +224,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "a44280b1-1d25-445f-bbf0-512e74b9c015",
+      "persistentUuid": "6d40e8eb-157c-4b9e-b9a5-94d4f6f62a3f",
       "width": 64,
-      "x": 1024,
-      "y": 182,
-      "zOrder": 9,
+      "x": 1018,
+      "y": 192,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -242,11 +241,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "b2f3a7ab-24ce-4e00-b57e-ac4c2ff23925",
+      "persistentUuid": "21e0b5a6-3620-4912-aa5c-23cc7fcb18a2",
       "width": 64,
-      "x": 476,
-      "y": 287,
-      "zOrder": 9,
+      "x": 470,
+      "y": 297,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -259,28 +258,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "AttemptsText",
-      "persistentUuid": "7877f6e2-dfef-4674-a520-1137bb72f887",
+      "persistentUuid": "5a3b4437-0aa0-43bc-99de-5df9b655cfeb",
       "width": 323,
-      "x": 431,
-      "y": 11,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1628,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "d83a0e49-6af5-4862-a0bc-3fcba94a1468",
-      "width": 64,
-      "x": 1347,
-      "y": -881,
-      "zOrder": 10,
+      "x": 425,
+      "y": 21,
+      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -293,11 +275,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Back_To_Menu_Button",
-      "persistentUuid": "4cf2cca5-1c85-4719-b3fb-c765b2d7cbbd",
+      "persistentUuid": "f12feac4-fe7d-405d-a8e3-0e12847dee04",
       "width": 183,
-      "x": 11,
-      "y": 5,
-      "zOrder": 18,
+      "x": 5,
+      "y": 15,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -310,11 +292,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "0f7bc4e7-3b97-494d-85c9-8db5850f6b88",
+      "persistentUuid": "ea3b3b6f-07a8-4da6-b8aa-d153bda38d0b",
       "width": 64,
-      "x": 592,
-      "y": 361,
-      "zOrder": 9,
+      "x": 586,
+      "y": 371,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -327,11 +309,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "de49a5fb-af8b-435a-ae2f-c01956453567",
+      "persistentUuid": "3e27390d-f5b2-4e38-8b17-c916df3e4dd3",
       "width": 64,
-      "x": 715,
-      "y": 407,
-      "zOrder": 9,
+      "x": 709,
+      "y": 417,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -344,11 +326,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "b36f001e-6cce-4fa1-bf68-0867d1306de3",
+      "persistentUuid": "24ad4ad8-3bfd-4658-8656-36ac8ba370c9",
       "width": 64,
-      "x": 835,
-      "y": 364,
-      "zOrder": 9,
+      "x": 829,
+      "y": 374,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -361,11 +343,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "48e5d4dc-b999-4dbd-b5f6-4b81e4f8821e",
+      "persistentUuid": "c7e8030c-3305-4e6b-9d2a-9ca3ceef808a",
       "width": 64,
-      "x": 945,
-      "y": 289,
-      "zOrder": 9,
+      "x": 939,
+      "y": 299,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -378,11 +360,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Clown",
-      "persistentUuid": "e9e482a1-5bbe-4b1f-8980-0b3253ed506c",
+      "persistentUuid": "74d98709-23b7-4014-8cf8-a755913f935a",
       "width": 143,
-      "x": 1131,
-      "y": 79,
-      "zOrder": 19,
+      "x": 1125,
+      "y": 89,
+      "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -394,11 +376,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Level_Number_Text",
-      "persistentUuid": "cb9a7976-2d04-4d21-abb5-079be0fbf656",
+      "persistentUuid": "ba3d1ea5-177e-46f7-952e-3e2022218e7c",
       "width": 0,
-      "x": 1229,
-      "y": 11,
-      "zOrder": 20,
+      "x": 1223,
+      "y": 21,
+      "zOrder": 62,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -411,11 +393,45 @@
       "keepRatio": true,
       "layer": "",
       "name": "Box",
-      "persistentUuid": "61370114-313e-46a8-a01c-cc11bd818c4e",
+      "persistentUuid": "e40c3778-b5e5-4846-b26c-0bfc301dde34",
       "width": 147,
-      "x": 1125,
-      "y": 361,
-      "zOrder": 21,
+      "x": 1119,
+      "y": 371,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1095,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "fca152d2-e7fc-41ad-b73d-c15054ba507f",
+      "width": 75,
+      "x": -79,
+      "y": -316,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1095,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "4ea73145-c171-45e6-8ee7-f47caae335b8",
+      "width": 75,
+      "x": 1279,
+      "y": -324,
+      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -426,7 +442,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "Background",
-      "texture": "assets\\Background.png2",
+      "texture": "assets\\Background.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -994,6 +1010,77 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "wall",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "wall bg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 318
+                      },
+                      {
+                        "x": 1280,
+                        "y": 318
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "sky.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1007,12 +1094,6 @@
       },
       {
         "objectName": "Back_To_Menu_Button"
-      },
-      {
-        "objectName": "Ground"
-      },
-      {
-        "objectName": "Background"
       },
       {
         "objectName": "AngleSlider"
@@ -1037,6 +1118,18 @@
       },
       {
         "objectName": "Box"
+      },
+      {
+        "objectName": "Background"
+      },
+      {
+        "objectName": "wall"
+      },
+      {
+        "objectName": "Ground"
+      },
+      {
+        "objectName": "NewTiledSprite"
       }
     ]
   },
@@ -1277,6 +1370,18 @@
             "=",
             "Targets_Hit + 1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "dingtarget.mp3",
+            "1",
+            "30",
+            "1"
+          ]
         }
       ]
     },
@@ -1420,6 +1525,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Waterdunk.mp3",
+                "",
+                "30",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -1433,6 +1550,18 @@
               "parameters": [
                 "",
                 "\"Win Scene\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "WinSound.mp3",
+                "",
+                "30",
                 ""
               ]
             }
@@ -1474,6 +1603,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "LostSound.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -1482,6 +1623,22 @@
                 ""
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "NewTiledSprite",
+            "+",
+            ".2"
           ]
         }
       ]

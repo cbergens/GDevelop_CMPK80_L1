@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.5468750000000006,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -31,11 +31,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "17e4f1ac-da48-4bfc-b278-2cdfac8cfcac",
+      "name": "NewSprite",
+      "persistentUuid": "e58c28d6-1003-451d-a4da-ea8699f140a3",
       "width": 0,
-      "x": 465,
-      "y": 234,
+      "x": 0,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,10 +48,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Levels_Button",
-      "persistentUuid": "95c3a1bf-8a56-45e0-8486-6ab07d26fad5",
+      "persistentUuid": "5b4cfdc3-3a04-4986-867a-554d27419da2",
       "width": 0,
-      "x": 545,
-      "y": 422,
+      "x": 512,
+      "y": 580,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -119,6 +119,66 @@
         "HoveredFadeOutDuration": 0.25,
         "LabelText": "Levels"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "You LOSE (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -126,6 +186,9 @@
     "children": [
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "NewSprite"
       },
       {
         "objectName": "Levels_Button"
@@ -158,6 +221,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -227,6 +295,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"

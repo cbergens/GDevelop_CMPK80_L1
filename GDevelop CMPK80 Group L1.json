@@ -691,6 +691,174 @@
         "name": "NewSprite10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "lock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "lock2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lock2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pixil-frame-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixil-frame-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "startemp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "startemp.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "startemp2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "startemp2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pixil-frame-0-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixil-frame-0-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "startemp-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "startemp-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pixil-frame-0 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixil-frame-0 (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "wall bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wall bg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sky.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "dingtarget.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dingtarget.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Waterdunk.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Waterdunk.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "You LOSE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "You LOSE.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "You LOSE (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "You LOSE (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "LostSound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LostSound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "winbg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winbg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "winbg2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winbg2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "winbg3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winbg3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "winbg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winbg4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "WinSound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "WinSound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

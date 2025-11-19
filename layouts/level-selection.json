@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.47893418845352553,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -254,7 +254,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite4",
+                  "image": "lock2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -274,16 +274,16 @@
                         "y": 0
                       },
                       {
-                        "x": 200,
+                        "x": 182,
                         "y": 0
                       },
                       {
-                        "x": 200,
-                        "y": 200
+                        "x": 182,
+                        "y": 182
                       },
                       {
                         "x": 0,
-                        "y": 200
+                        "y": 182
                       }
                     ]
                   ]
@@ -376,7 +376,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite9",
+                  "image": "startemp-removebg-preview.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -392,20 +392,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
-                        "y": 7
+                        "x": 29,
+                        "y": 15
                       },
                       {
-                        "x": 97,
-                        "y": 7
+                        "x": 148,
+                        "y": 15
                       },
                       {
-                        "x": 97,
-                        "y": 87
+                        "x": 148,
+                        "y": 134
                       },
                       {
-                        "x": 5,
-                        "y": 87
+                        "x": 29,
+                        "y": 134
                       }
                     ]
                   ]
@@ -512,8 +512,8 @@
               "parameters": [
                 "",
                 "Star",
-                "Level_1.X() + 120",
-                "Level_1.Y() - 40",
+                "Level_1.X()",
+                "Level_1.Y()",
                 ""
               ]
             }

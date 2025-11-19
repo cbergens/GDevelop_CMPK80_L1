@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6040838749988988,
+    "zoomFactor": 0.7130377630690568,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -57,14 +57,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 194,
+      "height": 718,
       "keepRatio": true,
       "layer": "",
       "name": "Ground",
       "persistentUuid": "8a332a02-5fd7-494b-b9e5-c2ebbd789e65",
-      "width": 1444,
-      "x": -29,
-      "y": 554,
+      "width": 1279,
+      "x": 1,
+      "y": 2,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -133,23 +133,6 @@
       "x": 467,
       "y": 229,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1675,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "7660cac4-890c-4629-b166-16f31193d3e9",
-      "width": 64,
-      "x": -32,
-      "y": -1035,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -360,23 +343,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2005,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "2c408f2c-f2b2-4564-822b-14ad113565cd",
-      "width": 64,
-      "x": 1394,
-      "y": -1256,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 228,
       "keepRatio": true,
       "layer": "",
@@ -407,7 +373,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "Ground",
-      "texture": "assets\\StartingGround.png",
+      "texture": "wall bg.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -567,7 +533,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\StartingBlock_Heavy",
+                  "image": "pixil-frame-0 (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1089,11 +1055,25 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "sky.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "objectName": "NewTiledSprite"
+      },
       {
         "objectName": "Ball"
       },
@@ -1102,9 +1082,6 @@
       },
       {
         "objectName": "Back_To_Menu_Button"
-      },
-      {
-        "objectName": "Ground"
       },
       {
         "objectName": "Background"
@@ -1129,6 +1106,9 @@
       },
       {
         "objectName": "Help_Text_Box"
+      },
+      {
+        "objectName": "Ground"
       },
       {
         "objectName": "Next_Button"
@@ -1744,6 +1724,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
