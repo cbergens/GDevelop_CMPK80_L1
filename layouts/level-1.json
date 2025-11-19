@@ -261,8 +261,8 @@
       "name": "AttemptsText",
       "persistentUuid": "7877f6e2-dfef-4674-a520-1137bb72f887",
       "width": 323,
-      "x": 406,
-      "y": 14,
+      "x": 431,
+      "y": 11,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -380,9 +380,42 @@
       "name": "Clown",
       "persistentUuid": "e9e482a1-5bbe-4b1f-8980-0b3253ed506c",
       "width": 143,
-      "x": 1133,
-      "y": 77,
+      "x": 1131,
+      "y": 79,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_Number_Text",
+      "persistentUuid": "cb9a7976-2d04-4d21-abb5-079be0fbf656",
+      "width": 0,
+      "x": 1229,
+      "y": 11,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 252,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Box",
+      "persistentUuid": "61370114-313e-46a8-a01c-cc11bd818c4e",
+      "width": 147,
+      "x": 1125,
+      "y": 361,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -393,7 +426,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "Background",
-      "texture": "assets\\Background.png",
+      "texture": "assets\\Background.png2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -733,11 +766,11 @@
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
+        "outlineThickness": 1,
+        "shadowAngle": 65,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
-        "shadowDistance": 4,
+        "shadowDistance": 5,
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
@@ -857,6 +890,110 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Level_Number_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 65,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 5,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "1",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Box",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -894,6 +1031,12 @@
       },
       {
         "objectName": "Clown"
+      },
+      {
+        "objectName": "Level_Number_Text"
+      },
+      {
+        "objectName": "Box"
       }
     ]
   },

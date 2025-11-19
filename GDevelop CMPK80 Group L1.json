@@ -94,7 +94,7 @@
       {
         "file": "assets/Background.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Background.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets\\Background.png",
         "smoothed": true,
         "userAdded": false
@@ -637,6 +637,58 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Background.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Background.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Small Blue Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Blue Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/f80ae062891a0a4612c0160ed931165461392019f89a8545f28c195f645ebc48_Small Blue Button_Hovered.png",
+          "name": "Small Blue Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small Blue Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Blue Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/c22b15c77047f1545806141e1129900bdc985d191b7ab5ebaae834a90c270ed2_Small Blue Button_Idle.png",
+          "name": "Small Blue Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small Blue Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Blue Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/9e01b09016c6a200b53a55cac3cf34f083785eb6b9f55de490a71ad352858b36_Small Blue Button_Pressed.png",
+          "name": "Small Blue Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
         "smoothed": true,
         "userAdded": false
       }

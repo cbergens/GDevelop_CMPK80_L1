@@ -20,7 +20,7 @@
     "snap": false,
     "zoomFactor": 0.546875,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "back"
   },
   "objectsGroups": [],
   "variables": [],
@@ -51,8 +51,8 @@
       "name": "Title_Text",
       "persistentUuid": "1a0e26da-a277-408a-8614-327af4b75bf6",
       "width": 0,
-      "x": 418,
-      "y": 22,
+      "x": 389,
+      "y": 21,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -67,10 +67,77 @@
       "layer": "",
       "name": "Info_Text",
       "persistentUuid": "c3d8b1fc-de20-42e8-9f74-84b666cc3e15",
-      "width": 793,
-      "x": 305,
-      "y": 208,
+      "width": 866,
+      "x": 229,
+      "y": 189,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "",
+      "name": "AngleSlider",
+      "persistentUuid": "d387cfc2-e8b4-4ceb-acd9-116944dd948c",
+      "width": 235,
+      "x": 796,
+      "y": 166,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PowerSlider",
+      "persistentUuid": "b25dd1d0-a866-4cfd-b478-3fd855bd1835",
+      "width": 0,
+      "x": 202,
+      "y": 280,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 59,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Shoot_Button",
+      "persistentUuid": "834b277e-4587-4bda-aad1-37ecfa77763f",
+      "width": 178,
+      "x": 788,
+      "y": 233,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "2df9f5ca-7935-4005-a56e-9bab71b1b2b1",
+      "width": 79,
+      "x": 471,
+      "y": 307,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -139,6 +206,116 @@
       }
     },
     {
+      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+      "name": "AngleSlider",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Square white slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 6,
+        "BarLeftPadding": 6,
+        "BarRightPadding": 6,
+        "BarBottomPadding": 6,
+        "LabelMargin": 6,
+        "MinValue": 0,
+        "MaxValue": 360,
+        "InitialValue": 180
+      }
+    },
+    {
+      "assetStoreId": "d32eb2703c5acb4488d36fef28164ddf46d8f5b2f3f7a97fa11640cf8d1d91e9",
+      "name": "PowerSlider",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Square Blue Slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 3,
+        "BarLeftPadding": 3,
+        "BarRightPadding": 3,
+        "BarBottomPadding": 4,
+        "LabelMargin": 4,
+        "InitialValue": 65,
+        "MinValue": 50
+      }
+    },
+    {
+      "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
+      "name": "BlueButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Tiny Yellow Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "Shoot"
+      }
+    },
+    {
+      "assetStoreId": "80b9ddd78c8727888bb53c7524f443682746667b1ba493c223114c04e7661bbf",
+      "name": "Shoot_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Small Blue Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelText": "Shoot",
+        "PressedLabelOffsetY": 2
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Target",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\StartingBlock_Heavy",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\StartingBlock_Heavy",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetStoreId": "",
       "bold": true,
       "italic": false,
@@ -149,7 +326,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Throw your ball by adjusting the angle and power sliders and pressing SHOOT!\n\nHit all the targets before running out of attempts to beat the level!\n\nUnlock levels by completing previous ones.\n\nGood luck!",
+      "string": "Throw your ball by adjusting the ANGLE and POWER sliders and pressing SHOOT!\n\n\nHit all the TARGETS before running out of attempts to beat the level!\n\nUnlock levels by completing previous ones.\n\n                        Good luck!",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -163,7 +340,7 @@
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "255;0;0",
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -172,7 +349,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Throw your ball by adjusting the angle and power sliders and pressing SHOOT!\n\nHit all the targets before running out of attempts to beat the level!\n\nUnlock levels by completing previous ones.\n\nGood luck!",
+        "text": "Throw your ball by adjusting the ANGLE and POWER sliders and pressing SHOOT!\n\n\nHit all the TARGETS before running out of attempts to beat the level!\n\nUnlock levels by completing previous ones.\n\n                        Good luck!",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -193,6 +370,21 @@
       },
       {
         "objectName": "Info_Text"
+      },
+      {
+        "objectName": "AngleSlider"
+      },
+      {
+        "objectName": "PowerSlider"
+      },
+      {
+        "objectName": "BlueButton"
+      },
+      {
+        "objectName": "Shoot_Button"
+      },
+      {
+        "objectName": "Target"
       }
     ]
   },
@@ -291,6 +483,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
