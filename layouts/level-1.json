@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630690525,
+    "zoomFactor": 0.6244537826600118,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -35,66 +35,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 720,
-      "layer": "",
-      "locked": true,
-      "name": "Background",
-      "persistentUuid": "632b6cdb-5d17-463f-8eac-cc62c3b1ea49",
-      "width": 1280,
-      "x": 0,
-      "y": 0,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 720,
-      "layer": "",
-      "locked": true,
-      "name": "Background",
-      "persistentUuid": "b4e23d04-fe06-46f8-870d-90a04bf8a25b",
-      "width": 1280,
-      "x": 0,
-      "y": 0,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 740,
       "keepRatio": true,
       "layer": "",
-      "name": "NewTiledSprite",
+      "name": "Clouds",
       "persistentUuid": "d1415897-d680-4ce3-bc0f-2c85832cd417",
       "width": 1300,
       "x": -17,
       "y": -2,
       "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 70,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ground",
-      "persistentUuid": "bdd4b192-9ee5-4c87-a7f9-4f34d8d3fdcf",
-      "width": 1281,
-      "x": 0,
-      "y": 722,
-      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -141,8 +90,8 @@
       "name": "Target",
       "persistentUuid": "654fa286-1a48-46c9-9936-009d2bb6ff00",
       "width": 64,
-      "x": 400,
-      "y": 192,
+      "x": 399,
+      "y": 177,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -243,8 +192,8 @@
       "name": "Target",
       "persistentUuid": "21e0b5a6-3620-4912-aa5c-23cc7fcb18a2",
       "width": 64,
-      "x": 470,
-      "y": 297,
+      "x": 454,
+      "y": 284,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -294,8 +243,8 @@
       "name": "Target",
       "persistentUuid": "ea3b3b6f-07a8-4da6-b8aa-d153bda38d0b",
       "width": 64,
-      "x": 586,
-      "y": 371,
+      "x": 580,
+      "y": 373,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -311,8 +260,8 @@
       "name": "Target",
       "persistentUuid": "3e27390d-f5b2-4e38-8b17-c916df3e4dd3",
       "width": 64,
-      "x": 709,
-      "y": 417,
+      "x": 712,
+      "y": 426,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -345,7 +294,7 @@
       "name": "Target",
       "persistentUuid": "c7e8030c-3305-4e6b-9d2a-9ca3ceef808a",
       "width": 64,
-      "x": 939,
+      "x": 944,
       "y": 299,
       "zOrder": 51,
       "numberProperties": [],
@@ -362,7 +311,7 @@
       "name": "Clown",
       "persistentUuid": "74d98709-23b7-4014-8cf8-a755913f935a",
       "width": 143,
-      "x": 1125,
+      "x": 1128,
       "y": 89,
       "zOrder": 61,
       "numberProperties": [],
@@ -406,15 +355,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1095,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "Ground",
-      "persistentUuid": "fca152d2-e7fc-41ad-b73d-c15054ba507f",
-      "width": 75,
-      "x": -79,
-      "y": -316,
-      "zOrder": 47,
+      "name": "Lava",
+      "persistentUuid": "c82ff615-b2d0-48c9-8782-477593a4b926",
+      "width": 1427,
+      "x": -90,
+      "y": 750,
+      "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -423,67 +372,72 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1095,
+      "height": 2300,
       "keepRatio": true,
       "layer": "",
-      "name": "Ground",
-      "persistentUuid": "4ea73145-c171-45e6-8ee7-f47caae335b8",
-      "width": 75,
-      "x": 1279,
-      "y": -324,
-      "zOrder": 47,
+      "name": "Lava",
+      "persistentUuid": "35365117-d23c-498e-aa9d-162f415fd3c5",
+      "width": 64,
+      "x": 1298,
+      "y": -1509,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2293,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Lava",
+      "persistentUuid": "c2b41cb4-0fb1-4c1c-b7cb-e5179c7c8b6f",
+      "width": 64,
+      "x": -96,
+      "y": -1511,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Lava",
+      "persistentUuid": "0b03b898-f261-4acc-acfc-e62bc4953bbc",
+      "width": 1501,
+      "x": -105,
+      "y": -1570,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "fea52d0b-2510-4ebc-a086-f89f1f2059af",
+      "width": 144,
+      "x": 1119,
+      "y": 549,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "height": 128,
-      "name": "Background",
-      "texture": "assets\\Background.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 64,
-      "name": "Ground",
-      "texture": "assets\\StartingGround.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 64,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Static",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": true,
-          "shape": "Box",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -818,7 +772,7 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Clown",
       "type": "Sprite",
@@ -883,19 +837,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 21
+                        "x": 23.5,
+                        "y": 161
                       },
                       {
-                        "x": 130,
-                        "y": 21
+                        "x": 34.5,
+                        "y": 23
                       },
                       {
-                        "x": 130,
-                        "y": 300
+                        "x": 106,
+                        "y": 22
                       },
                       {
-                        "x": 13,
+                        "x": 111.5,
+                        "y": 161
+                      },
+                      {
+                        "x": 95.5,
+                        "y": 297
+                      },
+                      {
+                        "x": 42.5,
                         "y": 300
                       }
                     ]
@@ -1074,13 +1036,159 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite",
+      "name": "Clouds",
       "texture": "sky.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Lava",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Wall",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1120,16 +1228,16 @@
         "objectName": "Box"
       },
       {
-        "objectName": "Background"
-      },
-      {
         "objectName": "wall"
       },
       {
-        "objectName": "Ground"
+        "objectName": "Clouds"
       },
       {
-        "objectName": "NewTiledSprite"
+        "objectName": "Lava"
+      },
+      {
+        "objectName": "Wall"
       }
     ]
   },
@@ -1394,7 +1502,7 @@
           },
           "parameters": [
             "Ball",
-            "Ground",
+            "Lava",
             "",
             "",
             ""
@@ -1636,7 +1744,7 @@
             "value": "TiledSpriteObject::XOffset"
           },
           "parameters": [
-            "NewTiledSprite",
+            "Clouds",
             "+",
             ".2"
           ]
