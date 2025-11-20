@@ -155,6 +155,20 @@
       "conditions": [
         {
           "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [

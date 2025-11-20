@@ -1653,16 +1653,6 @@
             },
             {
               "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Win Scene\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -1670,6 +1660,16 @@
                 "WinSound.mp3",
                 "",
                 "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Win Scene\"",
                 ""
               ]
             }
