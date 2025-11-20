@@ -883,6 +883,44 @@
         "name": "NewSprite13",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "buttonClick.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "buttonClick.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "bg music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bg music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "clickButton2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "clickButton2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "swingTreebg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "swingTreebg.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

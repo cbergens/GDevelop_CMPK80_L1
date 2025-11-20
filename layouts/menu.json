@@ -18,13 +18,52 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402156838,
+    "zoomFactor": 0.5290357402156846,
     "windowMask": false,
     "selectedLayer": ""
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "bgmusic",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 761,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "fb001460-5ce3-4d4b-bf72-89a51498c6cc",
+      "width": 1286,
+      "x": 0,
+      "y": 0,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "d33ec779-042b-4e51-a948-d86f26f84ac2",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
     {
       "angle": 0,
       "customSize": true,
@@ -33,11 +72,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Tutorial_Button",
-      "persistentUuid": "0352f540-9258-4c68-be4e-d8b2c943a50a",
+      "persistentUuid": "0c2b8cb6-b18a-4a8c-9b01-ee5007430f97",
       "width": 288,
-      "x": 499,
-      "y": 326,
-      "zOrder": 1,
+      "x": 30,
+      "y": 315,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -50,11 +89,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "How_To_Play_Button",
-      "persistentUuid": "a31c996f-5eb6-44f3-8f02-982254cbe974",
+      "persistentUuid": "ef928acd-af6b-4899-896c-2e96338920a6",
       "width": 382,
-      "x": 453,
-      "y": 474,
-      "zOrder": 2,
+      "x": 30,
+      "y": 463,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -67,11 +106,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Quit_Button",
-      "persistentUuid": "5cf8001c-762a-4fd1-b8ca-8ec684b1b49a",
+      "persistentUuid": "a5ed755c-8e66-4021-8255-b54f5ded251c",
       "width": 226,
-      "x": 534,
-      "y": 619,
-      "zOrder": 3,
+      "x": 30,
+      "y": 608,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -84,11 +123,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Levels_Button",
-      "persistentUuid": "b5c05cff-ff46-476e-ac22-c77a90fb2fca",
+      "persistentUuid": "7ba7a118-5273-46f0-97e2-e1376318451d",
       "width": 306,
-      "x": 490,
-      "y": 177,
-      "zOrder": 4,
+      "x": 30,
+      "y": 166,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -100,11 +139,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Game_Name_Text",
-      "persistentUuid": "d08c455a-f350-48b5-ac26-901784c2139f",
+      "persistentUuid": "d21a8d9b-5464-4b17-8e2c-c164e239d99a",
       "width": 0,
-      "x": 367,
-      "y": 25,
-      "zOrder": 5,
+      "x": 30,
+      "y": 14,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -225,6 +264,77 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "swingTreebg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "sky.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -244,6 +354,12 @@
       },
       {
         "objectName": "Game_Name_Text"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewTiledSprite"
       }
     ]
   },
@@ -267,6 +383,18 @@
             "value": "Quit"
           },
           "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "clickButton2.mp3",
+            "",
+            "15",
             ""
           ]
         }
@@ -295,6 +423,18 @@
             "\"How To Play\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "clickButton2.mp3",
+            "",
+            "15",
+            ""
+          ]
         }
       ]
     },
@@ -319,6 +459,18 @@
           "parameters": [
             "",
             "\"Level Selection\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "clickButton2.mp3",
+            "",
+            "15",
             ""
           ]
         }
@@ -346,6 +498,73 @@
             "",
             "\"Tutorial\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "clickButton2.mp3",
+            "",
+            "15",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "bgmusic",
+            "=",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "bg music.mp3",
+            "",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "bgmusic",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "NewTiledSprite",
+            "+",
+            "0.2"
           ]
         }
       ]
@@ -418,6 +637,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
