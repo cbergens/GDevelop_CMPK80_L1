@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_321",
-  "name": "Level 1",
+  "mangledName": "Level_322",
+  "name": "Level 2",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -73,8 +73,8 @@
       "name": "Ball",
       "persistentUuid": "5f1027c6-6575-4e3f-a94a-8bb66435e7a0",
       "width": 0,
-      "x": 178,
-      "y": 268,
+      "x": 80,
+      "y": 500,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -90,8 +90,8 @@
       "name": "Target",
       "persistentUuid": "654fa286-1a48-46c9-9936-009d2bb6ff00",
       "width": 64,
-      "x": 399,
-      "y": 177,
+      "x": 173,
+      "y": 235,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,8 +141,8 @@
       "name": "Arrow",
       "persistentUuid": "12aed958-e9d9-4cd3-a4b0-1eed9883dea5",
       "width": 312,
-      "x": 181,
-      "y": 269,
+      "x": 80,
+      "y": 500,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -175,8 +175,8 @@
       "name": "Target",
       "persistentUuid": "6d40e8eb-157c-4b9e-b9a5-94d4f6f62a3f",
       "width": 64,
-      "x": 1018,
-      "y": 192,
+      "x": 350,
+      "y": 413,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -192,8 +192,8 @@
       "name": "Target",
       "persistentUuid": "21e0b5a6-3620-4912-aa5c-23cc7fcb18a2",
       "width": 64,
-      "x": 454,
-      "y": 284,
+      "x": 469,
+      "y": 57,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -243,8 +243,8 @@
       "name": "Target",
       "persistentUuid": "ea3b3b6f-07a8-4da6-b8aa-d153bda38d0b",
       "width": 64,
-      "x": 580,
-      "y": 373,
+      "x": 290,
+      "y": 121,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -260,8 +260,8 @@
       "name": "Target",
       "persistentUuid": "3e27390d-f5b2-4e38-8b17-c916df3e4dd3",
       "width": 64,
-      "x": 712,
-      "y": 426,
+      "x": 679,
+      "y": 58,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -277,8 +277,8 @@
       "name": "Target",
       "persistentUuid": "24ad4ad8-3bfd-4658-8656-36ac8ba370c9",
       "width": 64,
-      "x": 829,
-      "y": 374,
+      "x": 848,
+      "y": 158,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -294,8 +294,8 @@
       "name": "Target",
       "persistentUuid": "c7e8030c-3305-4e6b-9d2a-9ca3ceef808a",
       "width": 64,
-      "x": 944,
-      "y": 299,
+      "x": 947,
+      "y": 305,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -432,6 +432,57 @@
       "x": 1119,
       "y": 549,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "629cfa4c-db74-4cb6-a687-8e8707287759",
+      "width": 64,
+      "x": 540,
+      "y": 415,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "1a73cf2c-dd78-4f4f-9ef4-07c5e207871e",
+      "width": 64,
+      "x": 738,
+      "y": 469,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "3b9a4edb-ad1b-4993-a94a-b206f7abe4c2",
+      "width": 64,
+      "x": 916,
+      "y": 576,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -716,12 +767,12 @@
         {
           "name": "Attempts",
           "type": "number",
-          "value": 5
+          "value": 3
         }
       ],
       "effects": [],
       "behaviors": [],
-      "string": "Attempts Left: 5",
+      "string": "Attempts Left: 3",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -744,7 +795,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Attempts Left: 5",
+        "text": "Attempts Left: 3",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -880,7 +931,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "1",
+      "string": "2",
       "font": "",
       "textAlignment": "left",
       "characterSize": 50,
@@ -903,7 +954,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "1",
+        "text": "2",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1115,7 +1166,6 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Static",
@@ -1293,9 +1343,9 @@
           "parameters": [
             "Ball",
             "=",
-            "187",
+            "90",
             "=",
-            "259"
+            "500"
           ]
         },
         {
@@ -1305,9 +1355,9 @@
           "parameters": [
             "Arrow",
             "=",
-            "187",
+            "90",
             "=",
-            "259"
+            "500"
           ]
         }
       ]
@@ -1542,9 +1592,9 @@
           "parameters": [
             "Ball",
             "=",
-            "187",
+            "90",
             "=",
-            "259"
+            "500"
           ]
         },
         {
@@ -1578,7 +1628,7 @@
               "parameters": [
                 "Targets_Hit",
                 ">=",
-                "7"
+                "3"
               ]
             }
           ],
@@ -1588,7 +1638,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Levels[0]",
+                "Levels[1]",
                 "=",
                 "2"
               ]
@@ -1598,7 +1648,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Levels[1]",
+                "Levels[2]",
                 "=",
                 "1"
               ]
@@ -1710,7 +1760,7 @@
               "parameters": [
                 "Targets_Hit",
                 "<",
-                "7"
+                "3"
               ]
             },
             {

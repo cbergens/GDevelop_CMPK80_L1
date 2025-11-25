@@ -1135,8 +1135,29 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Level_2",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 2\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

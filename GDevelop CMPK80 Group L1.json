@@ -879,7 +879,7 @@
       {
         "file": "assets/NewSprite13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite13.png\"}",
         "name": "NewSprite13",
         "smoothed": true,
         "userAdded": false
@@ -950,6 +950,50 @@
         {
           "type": "number",
           "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
         }
       ]
     }
@@ -974,6 +1018,22 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-4"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-5"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1013,6 +1073,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/bounce"
     }
   ],
   "externalLayouts": []

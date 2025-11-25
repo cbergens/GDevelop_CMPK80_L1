@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_321",
-  "name": "Level 1",
+  "mangledName": "Level_325",
+  "name": "Level 5",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6244537826600118,
+    "zoomFactor": 0.5290357402156963,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -73,26 +73,9 @@
       "name": "Ball",
       "persistentUuid": "5f1027c6-6575-4e3f-a94a-8bb66435e7a0",
       "width": 0,
-      "x": 178,
-      "y": 268,
+      "x": 600,
+      "y": 400,
       "zOrder": 49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "654fa286-1a48-46c9-9936-009d2bb6ff00",
-      "width": 64,
-      "x": 399,
-      "y": 177,
-      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -141,8 +124,8 @@
       "name": "Arrow",
       "persistentUuid": "12aed958-e9d9-4cd3-a4b0-1eed9883dea5",
       "width": 312,
-      "x": 181,
-      "y": 269,
+      "x": 600,
+      "y": 400,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -158,43 +141,9 @@
       "name": "BlueButton",
       "persistentUuid": "819e98cc-c6f7-4604-a1a2-41dcb86f5098",
       "width": 269,
-      "x": 431,
-      "y": 587,
+      "x": 364,
+      "y": 594,
       "zOrder": 57,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "6d40e8eb-157c-4b9e-b9a5-94d4f6f62a3f",
-      "width": 64,
-      "x": 1018,
-      "y": 192,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "21e0b5a6-3620-4912-aa5c-23cc7fcb18a2",
-      "width": 64,
-      "x": 454,
-      "y": 284,
-      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -229,74 +178,6 @@
       "x": 5,
       "y": 15,
       "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "ea3b3b6f-07a8-4da6-b8aa-d153bda38d0b",
-      "width": 64,
-      "x": 580,
-      "y": 373,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "3e27390d-f5b2-4e38-8b17-c916df3e4dd3",
-      "width": 64,
-      "x": 712,
-      "y": 426,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "24ad4ad8-3bfd-4658-8656-36ac8ba370c9",
-      "width": 64,
-      "x": 829,
-      "y": 374,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "c7e8030c-3305-4e6b-9d2a-9ca3ceef808a",
-      "width": 64,
-      "x": 944,
-      "y": 299,
-      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -435,6 +316,354 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 38,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "e7360429-d3af-4495-9c6d-a21e46761c71",
+      "width": 135,
+      "x": 564,
+      "y": 587,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "986e001e-4150-46c9-b332-e804d716fa2a",
+      "width": 118,
+      "x": 366,
+      "y": 114,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 60,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "786d8c9b-bb4f-4820-86b2-5c3deb687a74",
+      "width": 118,
+      "x": 544,
+      "y": 219,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 181,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "57ea30c1-5e8b-4906-87c9-7df4acff0d48",
+      "width": 21,
+      "x": 368,
+      "y": 235,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "e7ab217f-b7bc-4efa-8daf-b021abdb6abb",
+      "width": 118,
+      "x": 472,
+      "y": 142,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 75,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "d3157120-fea4-4622-bfb2-b3151a83e65e",
+      "width": 118,
+      "x": 513,
+      "y": 511,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "b80dbcfa-94f7-4626-9835-722eaf139854",
+      "width": 135,
+      "x": 678,
+      "y": 629,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 341,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "150d4b53-d685-4227-ae5a-91bf05ab4aff",
+      "width": 135,
+      "x": 798,
+      "y": 609,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "0eca0da9-8c61-4321-80b0-4c101a8fae1b",
+      "width": 0,
+      "x": 346,
+      "y": 148,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "342012ed-fcbb-4483-a88f-e655e9054b0b",
+      "width": 0,
+      "x": 220,
+      "y": 152,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "7b9ee5ad-6ca6-4241-9bbb-7a3694a647ac",
+      "width": 0,
+      "x": 100,
+      "y": 197,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "aa9b2213-9424-4fd6-852c-746e0e7aad1d",
+      "width": 0,
+      "x": 830,
+      "y": 522,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "c85c73a4-e574-4505-90b7-8126f9f9defc",
+      "width": 0,
+      "x": 942,
+      "y": 489,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "f5f48cab-568b-4bc2-9bf7-3de2adb74efb",
+      "width": 0,
+      "x": 453,
+      "y": 169,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "cddb93d2-7e94-4547-9631-4056b3df36f2",
+      "width": 0,
+      "x": 714,
+      "y": 543,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "e0ec5d9c-802a-421b-807c-aa60a48e0d51",
+      "width": 0,
+      "x": 1162,
+      "y": 113,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Target",
+      "persistentUuid": "06c4e545-164a-4f17-a4fc-a2f1d79a7752",
+      "width": 0,
+      "x": 1043,
+      "y": 458,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 348,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "2adb93db-eeb9-4200-b075-ce8a5fa6bb78",
+      "width": 117,
+      "x": 771,
+      "y": 406,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 299,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "3cf39c7a-bb3b-4b85-bd90-4576f78e5406",
+      "width": 117,
+      "x": 940,
+      "y": 286,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 327,
+      "customSize": true,
+      "depth": 1,
+      "height": 21,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "beae741f-03fb-4b79-9c96-54d9cdade04d",
+      "width": 117,
+      "x": 863,
+      "y": 366,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 294,
+      "customSize": true,
+      "depth": 1,
+      "height": 19,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "a8168504-26af-419e-9b04-b69b95ba6343",
+      "width": 100,
+      "x": 994,
+      "y": 197,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -462,7 +691,7 @@
           "polygonOrigin": "Center",
           "vertices": [],
           "density": 1,
-          "friction": 0.3,
+          "friction": 0.1,
           "restitution": 0.1,
           "linearDamping": 0.1,
           "angularDamping": 0.5,
@@ -716,12 +945,12 @@
         {
           "name": "Attempts",
           "type": "number",
-          "value": 5
+          "value": 3
         }
       ],
       "effects": [],
       "behaviors": [],
-      "string": "Attempts Left: 5",
+      "string": "Attempts Left: 3",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -744,7 +973,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Attempts Left: 5",
+        "text": "Attempts Left: 3",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -880,7 +1109,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "1",
+      "string": "5",
       "font": "",
       "textAlignment": "left",
       "characterSize": 50,
@@ -903,7 +1132,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "1",
+        "text": "5",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1115,7 +1344,6 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Static",
@@ -1293,9 +1521,9 @@
           "parameters": [
             "Ball",
             "=",
-            "187",
+            "600",
             "=",
-            "259"
+            "400"
           ]
         },
         {
@@ -1305,9 +1533,9 @@
           "parameters": [
             "Arrow",
             "=",
-            "187",
+            "600",
             "=",
-            "259"
+            "400"
           ]
         }
       ]
@@ -1465,6 +1693,24 @@
             "=",
             "\"Attempts Left: \" + AttemptsText.Attempts"
           ]
+        },
+        {
+          "type": {
+            "value": "UnPauseObjectTimer"
+          },
+          "parameters": [
+            "Ball",
+            "\"flight time\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Ball",
+            "\"flight time\""
+          ]
         }
       ]
     },
@@ -1542,9 +1788,9 @@
           "parameters": [
             "Ball",
             "=",
-            "187",
+            "600",
             "=",
-            "259"
+            "400"
           ]
         },
         {
@@ -1565,6 +1811,15 @@
             "Arrow",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "Ball",
+            "\"flight time\""
+          ]
         }
       ],
       "events": [
@@ -1578,7 +1833,7 @@
               "parameters": [
                 "Targets_Hit",
                 ">=",
-                "7"
+                "9"
               ]
             }
           ],
@@ -1588,7 +1843,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Levels[0]",
+                "Levels[4]",
                 "=",
                 "2"
               ]
@@ -1598,7 +1853,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Levels[1]",
+                "Levels[5]",
                 "=",
                 "1"
               ]
@@ -1710,7 +1965,7 @@
               "parameters": [
                 "Targets_Hit",
                 "<",
-                "7"
+                "9"
               ]
             },
             {
@@ -1756,6 +2011,64 @@
                 ""
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Ball",
+            "\"flight time\"",
+            ">=",
+            "5.5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Ball",
+            "=",
+            "600",
+            "=",
+            "400"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Ball",
+            "Physics2",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Arrow",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "Ball",
+            "\"flight time\""
           ]
         }
       ]
