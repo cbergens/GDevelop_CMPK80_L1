@@ -341,26 +341,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "6114ef49-0b39-49e1-b2ce-3cfa60b9a39a",
-      "width": 0,
-      "x": 696,
-      "y": 355,
-      "zOrder": 69,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
       "persistentUuid": "7d0febc4-d402-405d-a714-84cf3a51d9f5",
       "width": 0,
-      "x": 633,
-      "y": 395,
+      "x": 627,
+      "y": 401,
       "zOrder": 70,
       "numberProperties": [],
       "stringProperties": [],
@@ -375,25 +359,9 @@
       "name": "Target",
       "persistentUuid": "d59db8b9-69ef-4ae5-ac57-5811001c1a28",
       "width": 0,
-      "x": 634,
-      "y": 330,
+      "x": 627,
+      "y": 324,
       "zOrder": 71,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "f92489aa-1d37-43f1-939b-41c48ee3eb05",
-      "width": 0,
-      "x": 696,
-      "y": 422,
-      "zOrder": 72,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -424,8 +392,8 @@
       "name": "Target",
       "persistentUuid": "7e02e469-d6fb-4f15-840d-8b80183a88f4",
       "width": 0,
-      "x": 908,
-      "y": 185,
+      "x": 910,
+      "y": 204,
       "zOrder": 74,
       "numberProperties": [],
       "stringProperties": [],
@@ -441,7 +409,7 @@
       "persistentUuid": "6fdf2181-434b-4cbd-b2da-1f776d286e40",
       "width": 0,
       "x": 874,
-      "y": 128,
+      "y": 118,
       "zOrder": 75,
       "numberProperties": [],
       "stringProperties": [],
@@ -456,7 +424,7 @@
       "name": "Target",
       "persistentUuid": "64bfc9c4-f9a3-4700-b5ac-818efca5cc74",
       "width": 0,
-      "x": 796,
+      "x": 787,
       "y": 126,
       "zOrder": 77,
       "numberProperties": [],
@@ -1620,7 +1588,7 @@
               "parameters": [
                 "Targets_Hit",
                 ">=",
-                "8"
+                "6"
               ]
             }
           ],
@@ -1752,7 +1720,7 @@
               "parameters": [
                 "Targets_Hit",
                 "<",
-                "8"
+                "6"
               ]
             },
             {

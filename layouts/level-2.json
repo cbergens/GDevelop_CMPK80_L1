@@ -1628,7 +1628,7 @@
               "parameters": [
                 "Targets_Hit",
                 ">=",
-                "3"
+                "10"
               ]
             }
           ],
@@ -1760,7 +1760,7 @@
               "parameters": [
                 "Targets_Hit",
                 "<",
-                "3"
+                "10"
               ]
             },
             {
