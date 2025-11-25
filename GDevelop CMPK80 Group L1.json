@@ -1035,7 +1035,6 @@
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-5"
     },
-
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level6"
@@ -1056,8 +1055,6 @@
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level10"
     },
-
-
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/lose-scene"
