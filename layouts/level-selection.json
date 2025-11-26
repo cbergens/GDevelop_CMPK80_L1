@@ -1724,16 +1724,6 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Levels[9]",
-            "=",
-            "2"
-          ]
-        },
-        {
-          "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
