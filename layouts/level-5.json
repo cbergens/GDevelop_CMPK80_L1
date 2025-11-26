@@ -1769,14 +1769,33 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "Ball",
-            "Lava",
-            "",
-            "",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Ball",
+                "Lava",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Ball",
+                "\"flight time\"",
+                ">=",
+                "5.5"
+              ]
+            }
           ]
         }
       ],
@@ -2011,64 +2030,6 @@
                 ""
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "Ball",
-            "\"flight time\"",
-            ">=",
-            "5.5"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "Ball",
-            "=",
-            "600",
-            "=",
-            "400"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "Ball",
-            "Physics2",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Arrow",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PauseObjectTimer"
-          },
-          "parameters": [
-            "Ball",
-            "\"flight time\""
           ]
         }
       ]

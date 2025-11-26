@@ -116,22 +116,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/StartingBlock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\StartingBlock.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/StartingBlock_Heavy.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\StartingBlock_Heavy.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Small Plastic Green Round Slider Border.png",
         "kind": "image",
         "metadata": "",
@@ -985,6 +969,42 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
           "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "file": "assets/Small White Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small White Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/53d2ba892cb6a366c69deba9b229331f6cb7eedb22b53788773ade95c3ed0cba_Small White Button_Hovered.png",
+          "name": "Small White Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small White Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small White Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/0bba1ddd8c0b82a28c80d42bd025e5888c75948b28b7840a1ebd8fd7f5814844_Small White Button_Idle.png",
+          "name": "Small White Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small White Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small White Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/4fd1b137e9c779a3f6bffeaf55f4bb5d8c27fc90f413597600b0c059cb9ababc_Small White Button_Pressed.png",
+          "name": "Small White Button_Pressed.png"
         }
       }
     ],
