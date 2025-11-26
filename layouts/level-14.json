@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_322",
-  "name": "Level 2",
+  "mangledName": "Level_3214",
+  "name": "Level 14",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6244537826600118,
+    "zoomFactor": 0.6040838749988993,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -73,8 +73,8 @@
       "name": "Ball",
       "persistentUuid": "5f1027c6-6575-4e3f-a94a-8bb66435e7a0",
       "width": 0,
-      "x": 80,
-      "y": 500,
+      "x": 178,
+      "y": 268,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -90,8 +90,8 @@
       "name": "Target",
       "persistentUuid": "654fa286-1a48-46c9-9936-009d2bb6ff00",
       "width": 64,
-      "x": 173,
-      "y": 235,
+      "x": 465,
+      "y": 86,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -124,8 +124,8 @@
       "name": "AngleSlider",
       "persistentUuid": "d66d2fd1-dea9-4ca0-8026-540dcd2253f9",
       "width": 299,
-      "x": 44,
-      "y": 603,
+      "x": 42,
+      "y": 606,
       "zOrder": 55,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,8 +141,8 @@
       "name": "Arrow",
       "persistentUuid": "12aed958-e9d9-4cd3-a4b0-1eed9883dea5",
       "width": 312,
-      "x": 80,
-      "y": 500,
+      "x": 181,
+      "y": 269,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -161,40 +161,6 @@
       "x": 431,
       "y": 587,
       "zOrder": 57,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "6d40e8eb-157c-4b9e-b9a5-94d4f6f62a3f",
-      "width": 64,
-      "x": 350,
-      "y": 413,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "21e0b5a6-3620-4912-aa5c-23cc7fcb18a2",
-      "width": 64,
-      "x": 469,
-      "y": 57,
-      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -241,27 +207,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "ea3b3b6f-07a8-4da6-b8aa-d153bda38d0b",
-      "width": 64,
-      "x": 290,
-      "y": 121,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
       "persistentUuid": "3e27390d-f5b2-4e38-8b17-c916df3e4dd3",
       "width": 64,
-      "x": 679,
-      "y": 58,
+      "x": 628,
+      "y": 377,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -277,8 +226,8 @@
       "name": "Target",
       "persistentUuid": "24ad4ad8-3bfd-4658-8656-36ac8ba370c9",
       "width": 64,
-      "x": 848,
-      "y": 158,
+      "x": 763,
+      "y": 213,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -294,8 +243,8 @@
       "name": "Target",
       "persistentUuid": "c7e8030c-3305-4e6b-9d2a-9ca3ceef808a",
       "width": 64,
-      "x": 947,
-      "y": 305,
+      "x": 839,
+      "y": 283,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -444,10 +393,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "629cfa4c-db74-4cb6-a687-8e8707287759",
+      "persistentUuid": "043751d0-f63f-4aec-9e17-f2318af083e4",
       "width": 64,
-      "x": 540,
-      "y": 415,
+      "x": 796,
+      "y": 552,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -456,16 +405,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 64,
+      "depth": 1,
+      "height": 709,
       "keepRatio": true,
       "layer": "",
-      "name": "Target",
-      "persistentUuid": "1a73cf2c-dd78-4f4f-9ef4-07c5e207871e",
+      "name": "Wall",
+      "persistentUuid": "c8836f92-1050-4793-8f4f-608036d2efd1",
       "width": 64,
-      "x": 738,
-      "y": 469,
-      "zOrder": 51,
+      "x": 913,
+      "y": 401,
+      "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -474,15 +423,30 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 64,
+      "height": 32,
+      "layer": "",
+      "name": "Slime",
+      "persistentUuid": "32c3d392-0e97-4596-827a-d800d7e1f3f4",
+      "width": 32,
+      "x": 363,
+      "y": 47,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Target",
-      "persistentUuid": "3b9a4edb-ad1b-4993-a94a-b206f7abe4c2",
-      "width": 64,
-      "x": 916,
-      "y": 576,
-      "zOrder": 51,
+      "name": "Slime",
+      "persistentUuid": "9c7e0673-78cd-46fa-a614-16628b43d703",
+      "width": 0,
+      "x": 768,
+      "y": 495,
+      "zOrder": 70,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -498,6 +462,11 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "BounceCount": 0
+        },
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
@@ -767,12 +736,12 @@
         {
           "name": "Attempts",
           "type": "number",
-          "value": 3
+          "value": 1
         }
       ],
       "effects": [],
       "behaviors": [],
-      "string": "Attempts Left: 3",
+      "string": "Attempts Left: 1",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -795,7 +764,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Attempts Left: 3",
+        "text": "Attempts Left: 1",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -931,7 +900,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "2",
+      "string": "14",
       "font": "",
       "textAlignment": "left",
       "characterSize": 50,
@@ -954,7 +923,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "2",
+        "text": "14",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1179,12 +1148,12 @@
           "shapeOffsetY": 0,
           "polygonOrigin": "Center",
           "vertices": [],
-          "density": 1,
-          "friction": 0.3,
+          "density": 0.2,
+          "friction": 0,
           "restitution": 0.1,
           "linearDamping": 0.1,
           "angularDamping": 0.1,
-          "gravityScale": 1,
+          "gravityScale": 5,
           "layers": 1,
           "masks": 1
         }
@@ -1240,6 +1209,46 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Slime",
+      "texture": "pixil-frame-0 (2).png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "BounceCount": 0
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1279,6 +1288,9 @@
         "objectName": "Box"
       },
       {
+        "objectName": "Wall"
+      },
+      {
         "objectName": "wall"
       },
       {
@@ -1288,7 +1300,7 @@
         "objectName": "Lava"
       },
       {
-        "objectName": "Wall"
+        "objectName": "Slime"
       }
     ]
   },
@@ -1343,9 +1355,9 @@
           "parameters": [
             "Ball",
             "=",
-            "90",
+            "187",
             "=",
-            "500"
+            "259"
           ]
         },
         {
@@ -1355,9 +1367,9 @@
           "parameters": [
             "Arrow",
             "=",
-            "90",
+            "187",
             "=",
-            "500"
+            "259"
           ]
         }
       ]
@@ -1592,9 +1604,9 @@
           "parameters": [
             "Ball",
             "=",
-            "90",
+            "187",
             "=",
-            "500"
+            "259"
           ]
         },
         {
@@ -1628,7 +1640,7 @@
               "parameters": [
                 "Targets_Hit",
                 ">=",
-                "10"
+                "5"
               ]
             }
           ],
@@ -1638,7 +1650,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Levels[1]",
+                "Levels[13]",
                 "=",
                 "2"
               ]
@@ -1648,7 +1660,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Levels[2]",
+                "Levels[14]",
                 "=",
                 "1"
               ]
@@ -1760,7 +1772,7 @@
               "parameters": [
                 "Targets_Hit",
                 "<",
-                "10"
+                "5"
               ]
             },
             {
@@ -1831,12 +1843,53 @@
       "conditions": [
         {
           "type": {
+            "value": "Physics2::Collision"
+          },
+          "parameters": [
+            "Ball",
+            "Physics2",
+            "Slime",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Bounce::Bounce::BounceOff"
+          },
+          "parameters": [
+            "Ball",
+            "Bounce",
+            "Slime",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "slimeBoing.mp3",
+            "",
+            "15",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "NumberVariable"
           },
           "parameters": [
             "cLevel",
             "<",
-            "1"
+            "13"
           ]
         }
       ],
@@ -1848,7 +1901,7 @@
           "parameters": [
             "cLevel",
             "=",
-            "1"
+            "13"
           ]
         }
       ]
@@ -1888,6 +1941,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Bounce",
+      "type": "Bounce::Bounce"
     },
     {
       "name": "Effect",

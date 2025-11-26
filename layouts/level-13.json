@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level6",
-  "name": "Level6",
+  "mangledName": "Level_3213",
+  "name": "Level 13",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6244537826600118,
+    "zoomFactor": 0.6040838749988993,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -90,8 +90,8 @@
       "name": "Target",
       "persistentUuid": "654fa286-1a48-46c9-9936-009d2bb6ff00",
       "width": 64,
-      "x": 465,
-      "y": 86,
+      "x": 843,
+      "y": 428,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -173,27 +173,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "6d40e8eb-157c-4b9e-b9a5-94d4f6f62a3f",
-      "width": 64,
-      "x": 1008,
-      "y": 49,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
       "persistentUuid": "21e0b5a6-3620-4912-aa5c-23cc7fcb18a2",
       "width": 64,
-      "x": 439,
-      "y": 465,
+      "x": 502,
+      "y": 214,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -241,61 +224,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Target",
-      "persistentUuid": "ea3b3b6f-07a8-4da6-b8aa-d153bda38d0b",
-      "width": 64,
-      "x": 634,
-      "y": 170,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "3e27390d-f5b2-4e38-8b17-c916df3e4dd3",
-      "width": 64,
-      "x": 628,
-      "y": 377,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
-      "persistentUuid": "24ad4ad8-3bfd-4658-8656-36ac8ba370c9",
-      "width": 64,
-      "x": 819,
-      "y": 163,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Target",
       "persistentUuid": "c7e8030c-3305-4e6b-9d2a-9ca3ceef808a",
       "width": 64,
-      "x": 819,
-      "y": 368,
+      "x": 720,
+      "y": 301,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -324,7 +256,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Level_Number_Text",
+      "name": "Level_Number_Text12",
       "persistentUuid": "ba3d1ea5-177e-46f7-952e-3e2022218e7c",
       "width": 0,
       "x": 1223,
@@ -446,8 +378,8 @@
       "name": "Target",
       "persistentUuid": "043751d0-f63f-4aec-9e17-f2318af083e4",
       "width": 64,
-      "x": 1003,
-      "y": 459,
+      "x": 1004,
+      "y": 414,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -463,8 +395,8 @@
       "name": "Wall",
       "persistentUuid": "c8836f92-1050-4793-8f4f-608036d2efd1",
       "width": 64,
-      "x": 913,
-      "y": 401,
+      "x": 715,
+      "y": 377,
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
@@ -480,8 +412,8 @@
       "name": "Wall",
       "persistentUuid": "a305fc5e-7f8f-403c-bb33-b7258c14873e",
       "width": 64,
-      "x": 1082,
-      "y": -558,
+      "x": 715,
+      "y": -415,
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
@@ -772,12 +704,12 @@
         {
           "name": "Attempts",
           "type": "number",
-          "value": 3
+          "value": 2
         }
       ],
       "effects": [],
       "behaviors": [],
-      "string": "Attempts Left: 3",
+      "string": "Attempts Left: 2",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -800,7 +732,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Attempts Left: 3",
+        "text": "Attempts Left: 2",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -929,14 +861,14 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "Level_Number_Text",
+      "name": "Level_Number_Text12",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "6",
+      "string": "13",
       "font": "",
       "textAlignment": "left",
       "characterSize": 50,
@@ -959,7 +891,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "6",
+        "text": "13",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1184,12 +1116,12 @@
           "shapeOffsetY": 0,
           "polygonOrigin": "Center",
           "vertices": [],
-          "density": 1,
-          "friction": 0.3,
+          "density": 0.2,
+          "friction": 0,
           "restitution": 0.1,
           "linearDamping": 0.1,
           "angularDamping": 0.1,
-          "gravityScale": 1,
+          "gravityScale": 5,
           "layers": 1,
           "masks": 1
         }
@@ -1278,7 +1210,7 @@
         "objectName": "Clown"
       },
       {
-        "objectName": "Level_Number_Text"
+        "objectName": "Level_Number_Text12"
       },
       {
         "objectName": "Box"
@@ -1633,7 +1565,7 @@
               "parameters": [
                 "Targets_Hit",
                 ">=",
-                "8"
+                "4"
               ]
             }
           ],
@@ -1643,7 +1575,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Levels[5]",
+                "Levels[12]",
                 "=",
                 "2"
               ]
@@ -1653,7 +1585,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Levels[6]",
+                "Levels[13]",
                 "=",
                 "1"
               ]
@@ -1765,7 +1697,7 @@
               "parameters": [
                 "Targets_Hit",
                 "<",
-                "8"
+                "4"
               ]
             },
             {
@@ -1827,6 +1759,33 @@
             "Clouds",
             "+",
             ".2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "cLevel",
+            "<",
+            "12"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "cLevel",
+            "=",
+            "12"
           ]
         }
       ]

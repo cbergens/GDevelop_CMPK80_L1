@@ -891,7 +891,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "3",
+      "string": "4",
       "font": "",
       "textAlignment": "left",
       "characterSize": 50,
@@ -914,7 +914,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "3",
+        "text": "4",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1782,6 +1782,33 @@
             "Clouds",
             "+",
             ".2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "cLevel",
+            "<",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "cLevel",
+            "=",
+            "3"
           ]
         }
       ]
