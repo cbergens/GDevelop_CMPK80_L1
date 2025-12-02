@@ -149,6 +149,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Credits_Button",
+      "persistentUuid": "b10430a6-5e4c-4be8-8a69-528cc4189170",
+      "width": 175,
+      "x": 1081,
+      "y": 623,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -337,6 +354,19 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "cf293151af6644417848a1a7a84a471edaac9486ec4311d816fd51f5be6400af",
+      "name": "Credits_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Small Red Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelText": "CREDITS",
+        "PressedLabelOffsetY": 2
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -362,6 +392,9 @@
       },
       {
         "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "Credits_Button"
       }
     ]
   },
@@ -499,6 +532,44 @@
           "parameters": [
             "",
             "\"Tutorial\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "clickButton2.mp3",
+            "",
+            "15",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Credits_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Credits\"",
             ""
           ]
         },

@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 246,
+    "build": 248,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1008,6 +1009,42 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/4fd1b137e9c779a3f6bffeaf55f4bb5d8c27fc90f413597600b0c059cb9ababc_Small White Button_Pressed.png",
           "name": "Small White Button_Pressed.png"
         }
+      },
+      {
+        "file": "assets/Small Red Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Red Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/d63b2fa1436235851bd03b8000942eb3deab31a96f6d3afec025cfebc329a370_Small Red Button_Hovered.png",
+          "name": "Small Red Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small Red Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Red Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/de41b4dea946f89f15f694402f457883f08aa0d4f60edfd38dca601e82a5dd5e_Small Red Button_Idle.png",
+          "name": "Small Red Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small Red Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Red Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/290ec24f0eb40e1cebd908a215ed5e6d36dea97c835bf3280c17f3e3f30243dd_Small Red Button_Pressed.png",
+          "name": "Small Red Button_Pressed.png"
+        }
       }
     ]
   },
@@ -1106,6 +1143,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tutorial"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
