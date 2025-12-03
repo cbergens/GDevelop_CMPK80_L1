@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.7619362677197599,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -61,15 +61,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 548,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
+      "name": "NewTextA",
       "persistentUuid": "d28e887e-d620-4287-af72-fd5220abf8e5",
-      "width": 0,
-      "x": 412,
-      "y": 235,
+      "width": 1276,
+      "x": 2,
+      "y": 171,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,17 +143,17 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "NewTextA",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "credits here",
+      "string": "Background music - Cotton Candy Stall by Derek Fiechter and Brandon Fiechter\nClick, dunk and target sound effect by Mojang Studios\nVictory sound effect by Epic Games\nLose sound effect by Fromsoft\n\nAarohan Khadka - Sprite design, background design, audio design and levels 11-15",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 25,
       "color": {
         "b": 0,
         "g": 0,
@@ -172,11 +173,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "credits here",
+        "text": "Background music - Cotton Candy Stall by Derek Fiechter and Brandon Fiechter\nClick, dunk and target sound effect by Mojang Studios\nVictory sound effect by Epic Games\nLose sound effect by Fromsoft\n\nAarohan Khadka - Sprite design, background design, audio design and levels 11-15",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 25,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -192,7 +193,7 @@
         "objectName": "Credits_Title"
       },
       {
-        "objectName": "NewText"
+        "objectName": "NewTextA"
       }
     ]
   },
